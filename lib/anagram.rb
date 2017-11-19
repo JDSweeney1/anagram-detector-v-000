@@ -10,5 +10,6 @@ class Anagram
       words
     end
   end
+  list.compact
   end
 end

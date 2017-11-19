@@ -4,6 +4,7 @@ class Anagram
   def initialize(word)
     @word = word
   end
-  def match
+  def match(list)
+    list.include?(@word)
   end
 end

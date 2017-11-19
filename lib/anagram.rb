@@ -2,7 +2,7 @@ class Anagram
   attr_accessor :name
 
   def initialize
-    @name = nem
+    @name = name
   end
   def match
   end

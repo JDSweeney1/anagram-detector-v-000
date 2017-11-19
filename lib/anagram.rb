@@ -6,11 +6,9 @@ class Anagram
   end
   def match(list)
     list.collect do |words|
-      words.split("").collect do |letters|
-      if letters.include?(/[@word]/)
-        words
-      end
+    if words.split("").sort == @word.split("").sort
+      words
     end
   end
-end
+  end
 end
